@@ -30,7 +30,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 
 ## Progress Tracker
 
-- [ ] Install VirtualBox
+- [X] Install VirtualBox
 - [ ] Download Windows Server 2022
 - [ ] Create Domain Controller
 - [ ] Install Active Directory
@@ -45,16 +45,20 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 
 ---
 
-## Learning Notes
+## Learning Notes  
+### Step 1 - VirtualBox Installation
 
-This section will be updated after each task.
+Successfully installed and launched Oracle VirtualBox.
 
-### Lesson 1
+I learned that virtualization allows me to create and run multiple virtual machines on one physical computer. I will use VirtualBox to create a simulated business IT environment for practising Windows Server, Active Directory, user administration, and troubleshooting.
 
-Not started yet.
+
 
 ---
 
-## Screenshots
+## Screenshots/ Evidence
+### Step 1 - VirtualBox Successfully Installed
+![VirtualBox successfully installed](01-virtualbox-installed.png)
 
-Screenshots will be uploaded throughout the project.
+
+
