@@ -60,15 +60,34 @@ I learned that an ISO file contains the installation media needed to install an 
 
 This Windows Server virtual machine will later be configured as the domain controller for my Active Directory lab.
 
+## Step 3 – Windows Server Installation Complete
+
+Windows Server 2022 installation completed successfully, and the server booted to the desktop.
+
+## Step 4 – Server Manager Dashboard
+
+Server Manager opened automatically after the first login, confirming the server was installed successfully and ready for configuration.
+
 
 
 ---
 
-## Screenshots/ Evidence
+## Screenshots / Evidence
 ### Step 1 - VirtualBox Successfully Installed
-![VirtualBox successfully installed](01-virtualbox-installed.png)
+Oracle VirtualBox was successfully installed and is ready to host the Windows Server virtual machine.
+![VirtualBox Successfully Installed](01-virtualbox-installed.png)
 
 ### Step 2 - Windows Server 2022 ISO Downloaded
-![Windows Server 2022 ISO downloaded](02-windows-server-2022-iso.png)
+The Windows Server 2022 Evaluation ISO was downloaded successfully from Microsoft.
+![Windows Server 2022 ISO Downloaded](02-windows-server-2022-iso.png)
+
+### Step 3 - Windows Server Installation Complete
+Windows Server 2022 installation completed successfully, and the server booted to the desktop.
+![Windows Server Desktop](03-windows-server-desktop.png)
+
+### Step 4 - Server Manager Dashboard
+Server Manager opened automatically after the first login, confirming the installation was successful.
+![Server Manager Dashboard](04-server-manager-dashboard.png)
+
 
 
