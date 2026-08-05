@@ -46,28 +46,29 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 ---
 
 ## Learning Notes  
-### Step 1 - VirtualBox Installation
-
+## Step 1 - VirtualBox Installation
+### What I Did
 Successfully installed and launched Oracle VirtualBox.
+### What I Learned
+I learned that virtualization allows me to run multiple operating systems on one physical computer. Oracle VirtualBox will be used throughout this project to build a safe Active Directory lab without affecting my main Windows installation.
 
-I learned that virtualization allows me to create and run multiple virtual machines on one physical computer. I will use VirtualBox to create a simulated business IT environment for practising Windows Server, Active Directory, user administration, and troubleshooting.
-
-### Step 2 - Windows Server 2022 ISO
-
+## Step 2 - Windows Server 2022 ISO
+### What I Did
 Downloaded the Windows Server 2022 Evaluation ISO from Microsoft.
+### What I Learned
+I learned that an ISO file contains the installation media required to install an operating system. I will use this Windows Server 2022 Evaluation ISO inside VirtualBox to build a realistic Active Directory lab environment.
 
-I learned that an ISO file contains the installation media needed to install an operating system. I will use this ISO inside VirtualBox to install Windows Server 2022 on a virtual machine rather than directly on my physical laptop.
+## Step 3 - Windows Server Installation Complete
+### What I Did
+Successfully installed Windows Server 2022 and verified that the server booted to the Windows desktop.
+### What I Learned
+I learned how to deploy a Windows Server operating system inside a virtual machine. This server will later be promoted to a Domain Controller and will host Active Directory Domain Services for the lab.
 
-This Windows Server virtual machine will later be configured as the domain controller for my Active Directory lab.
-
-## Step 3 – Windows Server Installation Complete
-
-Windows Server 2022 installation completed successfully, and the server booted to the desktop.
-
-## Step 4 – Server Manager Dashboard
-
-Server Manager opened automatically after the first login, confirming the server was installed successfully and ready for configuration.
-
+## Step 4 - Server Manager Dashboard
+### What I Did
+Opened Server Manager after the first login and confirmed the installation completed successfully.
+### What I Learned
+I learned that Server Manager is the primary management console used to configure Windows Server. It allows administrators to install server roles and features, monitor the server, and manage services such as Active Directory.
 
 
 ---
