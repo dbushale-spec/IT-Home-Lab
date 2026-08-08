@@ -33,7 +33,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Install VirtualBox
 - [X] Download Windows Server 2022
 - [X] Create Domain Controller
-- [ ] Install Active Directory
+- [X] Install Active Directory
 - [ ] Create Organisational Units
 - [ ] Create Users
 - [ ] Create Security Groups
