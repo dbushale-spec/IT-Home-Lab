@@ -70,6 +70,11 @@ Opened Server Manager after the first login and confirmed the installation compl
 ### What I Learned
 I learned that Server Manager is the primary management console used to configure Windows Server. It allows administrators to install server roles and features, monitor the server, and manage services such as Active Directory.
 
+## Step 5 - Rename Server to DC01
+### What I Did
+Renamed the Windows Server computer name from the default hostname to **DC01** and verified the change in Server Manager.
+### What I Learned
+I learned that using a descriptive server name makes administration easier and helps identify the server's role within the network. Naming the server DC01 prepares it for its role as the Domain Controller.
 
 ---
 
@@ -89,6 +94,12 @@ Windows Server 2022 installation completed successfully, and the server booted t
 ### Step 4 - Server Manager Dashboard
 Server Manager opened automatically after the first login, confirming the installation was successful.
 ![Server Manager Dashboard](04-server-manager-dashboard.png)
+
+### Step 5 - Server Renamed to DC01
+The Windows Server computer name was successfully renamed to DC01 and verified in Server Manager.
+![Server Renamed to DC01](05-server-renamed-dc01.png)
+
+
 
 
 
