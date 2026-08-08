@@ -32,7 +32,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 
 - [X] Install VirtualBox
 - [X] Download Windows Server 2022
-- [ ] Create Domain Controller
+- [X] Create Domain Controller
 - [ ] Install Active Directory
 - [ ] Create Organisational Units
 - [ ] Create Users
@@ -76,6 +76,12 @@ Renamed the Windows Server computer name from the default hostname to **DC01** a
 ### What I Learned
 I learned that using a descriptive server name makes administration easier and helps identify the server's role within the network. Naming the server DC01 prepares it for its role as the Domain Controller.
 
+## Step 6 - Create Domain Controller
+### What I Did
+Installed Active Directory Domain Services (AD DS), promoted the server to a Domain Controller, created a new forest named company.local, and verified that DC01 appeared in the Domain Controllers container within Active Directory Users and Computers.
+### What I Learned
+I learned that a Domain Controller stores and manages Active Directory data, authenticates users and computers, and provides centralized administration for a Windows domain. Promoting the server to a Domain Controller created the company.local domain and prepared the environment for user, group, and policy management.
+
 ---
 
 ## Screenshots / Evidence
@@ -99,7 +105,9 @@ Server Manager opened automatically after the first login, confirming the instal
 The Windows Server computer name was successfully renamed to DC01 and verified in Server Manager.
 ![Server Renamed to DC01](05-server-renamed-dc01.png)
 
-
+### Step 6 - Domain Controller Created
+Active Directory Domain Services (AD DS) was installed and the server was successfully promoted to a Domain Controller. The new domain `company.local` was created and DC01 was verified in the Domain Controllers container.
+![Domain Controller Created](06-domain-controller-created.png)
 
 
 
