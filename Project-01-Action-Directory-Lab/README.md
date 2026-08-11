@@ -36,7 +36,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Install Active Directory
 - [X] Create Organisational Units
 - [X] Create Users
-- [ ] Create Security Groups
+- [X] Create Security Groups
 - [ ] Reset User Passwords
 - [ ] Disable User Accounts
 - [ ] Create Windows 10 Client
@@ -94,6 +94,13 @@ Created user accounts within the IT, HR, and Finance Organizational Units and ve
 ### What I Learned
 I learned that user accounts can be organized within Organizational Units (OUs) to reflect departmental structures. This makes user administration easier and allows administrators to apply permissions, policies, and management tasks to specific groups of users.
 
+## Step 9 - Create Security Groups
+### What I Did
+Created security groups named **IT_Users**, **HR_Users**, and **Finance_Users** within Active Directory Users and Computers. Added the appropriate departmental user accounts to each group and verified that the memberships were configured correctly.
+### What I Learned
+I learned that Security Groups are used to simplify permission management in Active Directory. Instead of assigning permissions to individual users, administrators can assign permissions to groups, making access control easier to manage and maintain.
+
+
 ---
 
 ## Screenshots / Evidence
@@ -135,5 +142,16 @@ Successfully created and verified HR user accounts within Active Directory Users
 #### Finance Users Created
 Successfully created and verified Finance user accounts within Active Directory Users and Computers.
 ![Finance Users](08-Finance-users.png)
+
+## Step 9 - Security Groups Created
+### IT Security Group Created
+Successfully created the **IT_Users** security group and verified that IT department user accounts were added as members.
+![IT Security Group Created](09-IT-security-group-created.png)
+### HR Security Group Created
+Successfully created the **HR_Users** security group and verified that HR department user accounts were added as members.
+![HR Security Group Created](09-HR-security-group-created.png)
+### Finance Security Group Created
+Successfully created the **Finance_Users** security group and verified that Finance department user accounts were added as members.
+![Finance Security Group Created](09-Finance-security-group-created.png)
 
 
