@@ -34,7 +34,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Download Windows Server 2022
 - [X] Create Domain Controller
 - [X] Install Active Directory
-- [ ] Create Organisational Units
+- [X] Create Organisational Units
 - [ ] Create Users
 - [ ] Create Security Groups
 - [ ] Reset User Passwords
@@ -82,6 +82,12 @@ Installed Active Directory Domain Services (AD DS), promoted the server to a Dom
 ### What I Learned
 I learned that a Domain Controller stores and manages Active Directory data, authenticates users and computers, and provides centralized administration for a Windows domain. Promoting the server to a Domain Controller created the company.local domain and prepared the environment for user, group, and policy management.
 
+## Step 7 - Create Organizational Units
+### What I Did
+Created Organizational Units named Employees, IT, HR, and Finance within Active Directory Users and Computers.
+### What I Learned
+I learned that Organizational Units (OUs) are used to logically organize Active Directory objects. OUs allow administrators to group users and computers by department and simplify management, delegation, and Group Policy deployment.
+
 ---
 
 ## Screenshots / Evidence
@@ -109,5 +115,8 @@ The Windows Server computer name was successfully renamed to DC01 and verified i
 Active Directory Domain Services (AD DS) was installed and the server was successfully promoted to a Domain Controller. The new domain `company.local` was created and DC01 was verified in the Domain Controllers container.
 ![Domain Controller Created](06-domain-controller-created.png)
 
+### Step 7 - Organizational Units Created
+Organizational Units were created to organize users and computers by department. This structure makes administration and Group Policy management easier.
+![Organizational Units Created](07-organizational-units-created.png)
 
 
