@@ -146,12 +146,12 @@ Successfully created and verified Finance user accounts within Active Directory 
 ## Step 9 - Security Groups Created
 ### IT Security Group Created
 Successfully created the **IT_Users** security group and verified that IT department user accounts were added as members.
-![IT Security Group Created](09-IT-security-group-created.png)
+![IT Security Group Created](09-IT-security-group.png)
 ### HR Security Group Created
 Successfully created the **HR_Users** security group and verified that HR department user accounts were added as members.
-![HR Security Group Created](09-HR-security-group-created.png)
+![HR Security Group Created](09-HR-security-group.png)
 ### Finance Security Group Created
 Successfully created the **Finance_Users** security group and verified that Finance department user accounts were added as members.
-![Finance Security Group Created](09-Finance-security-group-created.png)
+![Finance Security Group Created](09-finance-security-group.png)
 
 
