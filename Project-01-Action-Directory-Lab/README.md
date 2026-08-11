@@ -35,7 +35,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Create Domain Controller
 - [X] Install Active Directory
 - [X] Create Organisational Units
-- [ ] Create Users
+- [X] Create Users
 - [ ] Create Security Groups
 - [ ] Reset User Passwords
 - [ ] Disable User Accounts
@@ -88,6 +88,12 @@ Created Organizational Units named Employees, IT, HR, and Finance within Active 
 ### What I Learned
 I learned that Organizational Units (OUs) are used to logically organize Active Directory objects. OUs allow administrators to group users and computers by department and simplify management, delegation, and Group Policy deployment.
 
+## Step 8 - Create Users 
+### What I Did
+Created user accounts within the IT, HR, and Finance Organizational Units and verified that each account appeared correctly in Active Directory Users and Computers.
+### What I Learned
+I learned that user accounts can be organized within Organizational Units (OUs) to reflect departmental structures. This makes user administration easier and allows administrators to apply permissions, policies, and management tasks to specific groups of users.
+
 ---
 
 ## Screenshots / Evidence
@@ -118,5 +124,16 @@ Active Directory Domain Services (AD DS) was installed and the server was succes
 ### Step 7 - Organizational Units Created
 Organizational Units were created to organize users and computers by department. This structure makes administration and Group Policy management easier.
 ![Organizational Units Created](07-organizational-units-created.png)
+
+### Step 8 - Users created in Organizational Units
+#### IT Users Created
+Successfully created and verified IT user accounts within Active Directory Users and Computers.
+![IT Users](08-IT-users.png)
+#### HR Users Created
+Successfully created and verified HR user accounts within Active Directory Users and Computers.
+![HR Users](08-HR-users.png)
+#### Finance Users Created
+Successfully created and verified Finance user accounts within Active Directory Users and Computers.
+![Finance Users](08-Finance-users.png)
 
 
