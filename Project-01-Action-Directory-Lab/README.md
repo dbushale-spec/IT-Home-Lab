@@ -152,6 +152,6 @@ Successfully created the **HR_Users** security group and verified that HR depart
 ![HR Security Group Created](09-HR-security-group.png)
 ### Finance Security Group Created
 Successfully created the **Finance_Users** security group and verified that Finance department user accounts were added as members.
-![Finance Security Group Created](09-finance-security-group.png)
+![Finance Security Group Created](09-Finance-security-group.png)
 
 
