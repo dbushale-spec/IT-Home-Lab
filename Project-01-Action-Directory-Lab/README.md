@@ -37,7 +37,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Create Organisational Units
 - [X] Create Users
 - [X] Create Security Groups
-- [ ] Reset User Passwords
+- [X] Reset User Passwords
 - [ ] Disable User Accounts
 - [ ] Create Windows 10 Client
 - [ ] Join Client To Domain
@@ -100,6 +100,12 @@ Created security groups named **IT_Users**, **HR_Users**, and **Finance_Users** 
 ### What I Learned
 I learned that Security Groups are used to simplify permission management in Active Directory. Instead of assigning permissions to individual users, administrators can assign permissions to groups, making access control easier to manage and maintain.
 
+## Step 10 - Reset User Passwords
+### What I Did
+Reset passwords for user accounts in the Finance, HR, and IT Organizational Units using Active Directory Users and Computers. Verified that each password reset was completed successfully for the selected user accounts.
+### What I Learned
+I learned how to reset user passwords in Active Directory and manage user credentials within a domain environment. This task demonstrated how administrators can assist users who forget their passwords while maintaining account security and ensuring continued access to network resources.
+
 
 ---
 
@@ -153,5 +159,16 @@ Successfully created the **HR_Users** security group and verified that HR depart
 ### Finance Security Group Created
 Successfully created the **Finance_Users** security group and verified that Finance department user accounts were added as members.
 ![Finance Security Group Created](09-Finance-security-group.png)
+
+## Step 10 - User Passwords Reset
+### Finance User Password Reset
+Successfully reset the password for the Finance department user account using Active Directory Users and Computers.
+![Finance User Password Reset](10-finance-password-reset.png)
+### HR User Password Reset
+Successfully reset the password for the HR department user account and verified that the password change was applied successfully.
+![HR User Password Reset](10-hr-password-reset.png)
+### IT User Password Reset
+Successfully reset the password for the IT department user account and confirmed the operation completed successfully.
+![IT User Password Reset](10-it-password-reset.png)
 
 
