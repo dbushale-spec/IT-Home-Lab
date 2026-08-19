@@ -145,24 +145,24 @@ Organizational Units were created to organize users and computers by department.
 ![Organizational Units Created](07-organizational-units-created.png)
 
 ### Step 8 - Users created in Organizational Units
-#### IT Users Created
+#### Step 8.1 - IT Users Created
 Successfully created and verified IT user accounts within Active Directory Users and Computers.
 ![IT Users](08-IT-users.png)
-#### HR Users Created
+#### Step 8.2 - HR Users Created
 Successfully created and verified HR user accounts within Active Directory Users and Computers.
 ![HR Users](08-HR-users.png)
-#### Finance Users Created
+#### Step 8.3 - Finance Users Created
 Successfully created and verified Finance user accounts within Active Directory Users and Computers.
 ![Finance Users](08-Finance-users.png)
 
 ## Step 9 - Security Groups Created
-### IT Security Group Created
+### Step 9.1 - IT Security Group Created
 Successfully created the **IT_Users** security group and verified that IT department user accounts were added as members.
 ![IT Security Group Created](09-IT-security-group.png)
-### HR Security Group Created
+### Step 9.2 - HR Security Group Created
 Successfully created the **HR_Users** security group and verified that HR department user accounts were added as members.
 ![HR Security Group Created](09-HR-security-group.png)
-### Finance Security Group Created
+### Step 9.3 - Finance Security Group Created
 Successfully created the **Finance_Users** security group and verified that Finance department user accounts were added as members.
 ![Finance Security Group Created](09-Finance-security-group.png)
 
