@@ -38,7 +38,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Create Users
 - [X] Create Security Groups
 - [X] Reset User Passwords
-- [ ] Disable User Accounts
+- [X] Disable User Accounts
 - [ ] Create Windows 10 Client
 - [ ] Join Client To Domain
 - [ ] Configure Group Policy
@@ -106,6 +106,12 @@ Reset passwords for user accounts in the Finance, HR, and IT Organizational Unit
 ### What I Learned
 I learned how to reset user passwords in Active Directory and manage user credentials within a domain environment. This task demonstrated how administrators can assist users who forget their passwords while maintaining account security and ensuring continued access to network resources.
 
+# Step 11 - Disable User Accounts
+### What I Did
+I disabled a user account in each department Organizational Unit (Finance, HR, and IT) using Active Directory Users and Computers. I selected a user from each department and used the Disable Account option to prevent access to domain resources.
+### What I Learned
+I learned how to disable Active Directory user accounts without deleting them. Disabling accounts is useful when access needs to be temporarily revoked while preserving user information and permissions.
+
 
 ---
 
@@ -170,5 +176,16 @@ Successfully reset the password for the HR department user account and verified 
 ### IT User Password Reset
 Successfully reset the password for the IT department user account and confirmed the operation completed successfully.
 ![IT User Password Reset](10-it-password-reset.png)
+
+## Step 11 - Disable User Accounts
+### Step 11.1 - Finance User Account Disabled
+The screenshot below shows a Finance department user account that has been successfully disabled in Active Directory Users and Computers.
+![Finance User Account Disabled](11-finance-user-disabled.png)
+### Step 11.2 - HR User Account Disabled
+The screenshot below shows an HR department user account that has been successfully disabled in Active Directory Users and Computers.
+![HR User Account Disabled](11-hr-user-disabled.png)
+### Step 11.3 - IT User Account Disabled
+The screenshot below shows an IT department user account that has been successfully disabled in Active Directory Users and Computers.
+![IT User Account Disabled](11-it-user-disabled.png)
 
 
