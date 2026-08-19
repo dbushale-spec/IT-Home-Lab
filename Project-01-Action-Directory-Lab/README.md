@@ -167,13 +167,13 @@ Successfully created the **Finance_Users** security group and verified that Fina
 ![Finance Security Group Created](09-Finance-security-group.png)
 
 ## Step 10 - User Passwords Reset
-### Finance User Password Reset
+### Step 10.1 - Finance User Password Reset
 Successfully reset the password for the Finance department user account using Active Directory Users and Computers.
 ![Finance User Password Reset](10-finance-password-reset.png)
-### HR User Password Reset
+### Step 10.2 - HR User Password Reset
 Successfully reset the password for the HR department user account and verified that the password change was applied successfully.
 ![HR User Password Reset](10-hr-password-reset.png)
-### IT User Password Reset
+### Step 10.3 - IT User Password Reset
 Successfully reset the password for the IT department user account and confirmed the operation completed successfully.
 ![IT User Password Reset](10-it-password-reset.png)
 
