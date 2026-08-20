@@ -39,7 +39,7 @@ To build a realistic Windows Server environment and gain hands-on experience wit
 - [X] Create Security Groups
 - [X] Reset User Passwords
 - [X] Disable User Accounts
-- [ ] Create Windows 10 Client
+- [X] Create Windows 10 Client
 - [ ] Join Client To Domain
 - [ ] Configure Group Policy
 
@@ -112,6 +112,11 @@ I disabled a user account in each department Organizational Unit (Finance, HR, a
 ### What I Learned
 I learned how to disable Active Directory user accounts without deleting them. Disabling accounts is useful when access needs to be temporarily revoked while preserving user information and permissions.
 
+# Step 12 – Create Windows 10 Client
+## What I Did
+I installed Windows 10 on the Client Virtual Machine using the Windows 10 ISO file in Oracle VirtualBox. During the installation process, I configured the regional settings, selected the Windows edition, accepted the licence agreement, chose the installation type, selected the virtual hard disk, and initiated the operating system installation.
+## What I Learned
+I learned how to deploy a Windows 10 operating system within a virtualised environment using Oracle VirtualBox. I gained practical experience with the Windows Setup wizard, operating system selection, storage configuration, and the installation stages required to prepare a client machine for use within an Active Directory environment.
 
 ---
 
@@ -187,5 +192,28 @@ The screenshot below shows an HR department user account that has been successfu
 ### Step 11.3 - IT User Account Disabled
 The screenshot below shows an IT department user account that has been successfully disabled in Active Directory Users and Computers.
 ![IT User Account Disabled](11-it-user-disabled.png)
+
+## Step 12 – Create Windows 10 Client
+### Step 12.1 – Launch Windows Setup
+The screenshot below shows the Windows Setup wizard successfully loading after booting from the Windows 10 installation ISO.
+![Launch Windows Setup](Step%2012.1%20-%20Launch%20Windows%20Setup.png)
+### Step 12.2 – Configure Language and Regional Settings
+The screenshot below shows the language, time and currency format, and keyboard input settings configured before beginning the Windows installation.
+![Configure Language and Regional Settings](Step%2012.2%20-%20Configure%20Language%20and%20Regional%20Settings.png)
+### Step 12.3 – Start Windows Installation
+The screenshot below shows the Windows Setup screen where the **Install Now** option was selected to begin the Windows 10 installation process.
+![Start Windows Installation](Step%2012.3%20-%20Start%20Windows%20Installation.png)
+### Step 12.4 – Select Windows Edition
+The screenshot below shows the Windows edition selection screen where the required version of Windows 10 was chosen for installation.
+![Select Windows Edition](Step%2012.4%20-%20Select%20Windows%20Edition.png)
+### Step 12.5 – Accept Microsoft License Terms
+The screenshot below shows the Microsoft Software License Terms page where the licence agreement was accepted before continuing the installation.
+![Accept Microsoft License Terms](Step%2012.5%20-%20Accept%20Microsoft%20License%20Terms.png)
+### Step 12.6 – Choose Installation Type and Target Drive
+The screenshot below shows the installation configuration screen where the virtual hard disk was selected as the destination for the Windows 10 installation.
+![Choose Installation Type and Target Drive](Step%2012.6%20-%20Choose%20Installation%20Type%20and%20Target%20Drive.png)
+### Step 12.7 – Install Windows 10
+The screenshot below shows Windows Setup actively installing the operating system onto the virtual hard disk.
+![Install Windows 10](Step%2012.7%20-%20Install%20Windows%2010.png)
 
 
